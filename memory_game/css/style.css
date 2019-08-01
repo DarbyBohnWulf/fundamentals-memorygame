@@ -3,6 +3,7 @@ body {
     font-family: Raleway, sans-serif;
     color: #0d2c40;
     letter-spacing: 1px;
+    margin: 0;
 }
 a {
     text-decoration: none;
@@ -15,6 +16,7 @@ h1 {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 45px;
+    margin: 0;
 }
 h2 {
     text-transform: uppercase;
@@ -25,4 +27,30 @@ p {
     font-family: 'Droid Serif', serif;
     line-height: 26px;
     font-size: 18px;
+}
+
+header {
+    background-color: #f15b31;
+    color: #ffffff;
+    padding: 30px 20px;
+}
+
+nav {
+    background-color: #00a6b3;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+nav a {
+    margin: 0 20px;
+    color: #ffffff;
+}
+
+main {
+    width: 850px;
+    margin: 35px auto;
+}
+
+img {
+    margin: 40px 8px 0 8px;
 }
