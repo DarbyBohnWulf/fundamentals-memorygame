@@ -44,6 +44,11 @@ nav {
 nav a {
     margin: 0 20px;
     color: #ffffff;
+    border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
 }
 
 main {
@@ -53,4 +58,36 @@ main {
 
 img {
     margin: 40px 8px 0 8px;
+}
+
+footer {
+    text-transform: uppercase;
+    padding: 0 20px;
+    background-color: #0d2c40;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: .8em;
+    font-weight: 500;
+}
+
+.copyright {
+    float: left;
+}
+
+.message {
+    float: right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+
+.name {
+    color: #f15b31;
+    font-weight: 700;
 }
